@@ -18,5 +18,4 @@ public interface JsonPlaceHolderApi {
 
     @POST("mahasiswa")
     Call<ResponseBody> createPost(@Body Post post);
-
 }

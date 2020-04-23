@@ -72,7 +72,6 @@ public class createPost extends AppCompatActivity {
                                 startActivity(intent);
                             }
                         }
-
                         @Override
                         public void onFailure(Call<ResponseBody> call, Throwable t) {
                             Toast.makeText(getApplicationContext(), "Failed", Toast.LENGTH_SHORT).show();

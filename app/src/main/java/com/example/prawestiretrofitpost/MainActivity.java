@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
                     textViewResult.setText("Code " + response.code());
                     return;
                 }
-
                 List<Post> posts = response.body();
                 for (Post post : posts) {
                     mahasiswa.add(new Post(
